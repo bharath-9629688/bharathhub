@@ -1,0 +1,37 @@
+body{
+    overflow-x: hidden;
+}
+.wanted{
+    position: relative;
+    height: 250px;
+    min-height: 100vh;
+}
+.circle{
+    height: 200px;
+    width: 220px;
+    background-color: rgb(252, 151, 0);
+    border-radius: 100%;
+    position: absolute;
+    right: -50px;
+    top: -100px;
+}
+.square{
+    height:200px;
+    width: 200px;
+    position: absolute;
+    background-color: rgb(3, 223, 14);
+    bottom: -10px;
+    left: -50px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 15px;
+}
+.triangle{
+    height: 0;
+    width: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid rgb(0, 0, 255);
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
