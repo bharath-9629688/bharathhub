@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-image: url(https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+}
+
+.bharath {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  background: rgb(33, 55, 180);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(194, 236, 42, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, select, textarea {
+  padding: 10px;
+  border: 1px solid #a52c2c;
+  border-radius: 5px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #11d131;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.link-btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: rgb(29, 3, 3);
+  border-radius: 5px;
+}
